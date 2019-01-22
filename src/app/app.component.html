@@ -1,0 +1,13 @@
+<div className="App">
+
+        <div class="appBody">
+          <div class="search">
+            <input class="searchInput" placeholder="Search"/>
+          </div>
+          <app-products class="products" [products]="allProducts"></app-products>
+          <div class="favorites">
+            <div class="favoritesHeader">Favoriti</div>
+            <app-favorites [favorites]="favorites"></app-favorites>    
+          </div>
+        </div>     
+      </div>

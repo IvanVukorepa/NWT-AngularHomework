@@ -1,0 +1,26 @@
+<div class="product" *ngFor="let product of products">
+  <div class="productHeader">  
+      <div class="productTitle">
+          {{product.name}} 
+      </div>
+      <div class="productRate">
+          Ocjena  od 5
+      </div>
+  </div>
+  <div class="productBody">
+      <div class="productImage">
+
+      </div>
+      <p class="productText">
+          {{product.text}}
+      </p>
+  </div>
+  <div class="favorite">
+    <div *ngIf="!product.favorite" class="favoriteAdd">ADD to favorite</div>
+    <div *ngIf="product.favorite"class="favoriteAdd">Favorite item</div>
+    <div class="rate">
+        <input type="number" min="1" max="5"/> 
+        <div class="rateButton">Rate</div>
+    </div>
+  </div>
+</div>
