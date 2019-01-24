@@ -1,5 +1,6 @@
 import { Component, OnInit, NgModule, EventEmitter, Input, Output } from '@angular/core';
 import { CommonModule } from '@angular/common'
+import { ProductInterface } from '../ProductInterface'
 
 
 @Component({
@@ -16,7 +17,7 @@ import { CommonModule } from '@angular/common'
 
 export class ProductComponent implements OnInit {
 
-  @Input() product = {}
+  @Input() product: ProductInterface;
   @Output() favoriteChanged: EventEmitter<any> = new EventEmitter<any>();
   rate: number = null;
   clicked: boolean = false;

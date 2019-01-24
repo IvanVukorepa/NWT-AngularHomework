@@ -1,3 +1,18 @@
-<p>
-  details works!
-</p>
+<div [routerLink]="['/']" routerLinkActive="active">Go Back</div>
+<div class="detailsHeader">
+  <div class="detailsTitle">{{product.name}}</div>
+  <div class="detailsRating">Ocjena {{rating(product.rated)}} od 5</div>
+</div>
+<div class="detailsBody">
+  <img src="{{product.imgUrl}}" alt="as"/>
+  <div>
+    {{product.description}}
+  </div>
+</div>
+<div class="detailsComments" *ngFor="let comment of product.comments">
+  <div>{{comment.username}}</div>
+  <div>{{comment.rating}}</div>
+  <div >
+    {{comment.comment}}
+  </div>
+</div>
