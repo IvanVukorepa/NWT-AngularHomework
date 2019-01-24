@@ -1,6 +1,6 @@
 <div class="product">
   <div class="productHeader">  
-      <div class="productTitle">
+      <div [routerLink]="['/details',product.id]" routerLinkActive="active" class="productTitle">
           {{product.name}} 
       </div>
       <div class="productRate">
@@ -12,7 +12,7 @@
 
       </div>
       <p class="productText">
-          {{product.text}}
+          {{product.description}}
       </p>
   </div>
   <div class="favorite">

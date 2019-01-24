@@ -18,7 +18,7 @@ export class FavoritesComponent implements OnInit {
     ratings.forEach(element => {
       sum += element
     });
-    return sum/ratings.length;
+    return (sum/ratings.length).toFixed(2);
   }
 
   unfavoriteClick(product){

@@ -26,14 +26,17 @@ export class ProductComponent implements OnInit {
     ratings.forEach(element => {
       sum += element
     });
-    return sum/ratings.length;
+    return (sum/ratings.length).toFixed(2);
   }
 
   rateClick = (product) => {
-    if(this.rate !== null){
+    if(this.rate !== null && this.rate > 0 && this.rate < 6){
       product.rated.push(this.rate);
       this.clicked = true;
     }
+    else
+      this.rate = null;
+
   }
 
   favoriteClick = (product) => {

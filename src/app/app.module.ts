@@ -7,7 +7,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { ProductComponent } from './product/product.component';
 import { FavoritesComponent } from './favorites/favorites.component';
-import { ProductsComponent } from './products/products.component'
+import { ProductsComponent } from './products/products.component';
+import { DetailsComponent } from './details/details.component'
 
 
 const appRoutes: Routes = [
@@ -18,6 +19,10 @@ const appRoutes: Routes = [
   { path: '',
     redirectTo: '/products',
     pathMatch: 'full'
+  },
+  {
+    path: 'details/:id',
+    component: DetailsComponent
   }
 ];
 
@@ -26,7 +31,8 @@ const appRoutes: Routes = [
     AppComponent,
     ProductComponent,
     FavoritesComponent,
-    ProductsComponent
+    ProductsComponent,
+    DetailsComponent
   ],
   imports: [
     BrowserModule,

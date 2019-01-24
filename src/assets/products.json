@@ -2,61 +2,121 @@
     {
         "id": 1,
         "imgUrl": "https://guesseu.scene7.com/is/image/GuessEU/M63H24W7JF0-L302-ALTGHOST?wid=1500&fmt=jpeg&qlt=80&op_sharpen=0&op_usm=1.0,1.0,5,0&iccEmbed=0",
-        "name": "CHECK PRINT SHIRT",
-        "text" : "Lorem tetur ad ipsum tetur ad ipsum dolor sit amet, consectetur ad ipsum dolor sit amet, consectetur ad ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qorem ipsum dolor sit amet, consectetur adipiscing elit, orem ipsum dolor sit amet, consectetur adipiscing elit, orem ipsum dolor sit amet, consectetur adipiscing elit, ui officia deserunt mollit anim id orem ipsum dolor sit amet, consectetur adipiscing elit, orem ipsum dolor sit amet, consectetur adipiscing elit, orem ipsum dolor sit amet, consectetur adipiscing elit, ",
+        "name": "Stolica",
+        "description" : "Lorem tetur ad ipsum tetur ad ipsum dolor sit amet, consectetur ad ipsum dolor sit amet, consectetur ad ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qorem ipsum dolor sit amet, consectetur adipiscing elit, orem ipsum dolor sit amet, consectetur adipiscing elit, orem ipsum dolor sit amet, consectetur adipiscing elit, ui officia deserunt mollit anim id orem ipsum dolor sit amet, consectetur adipiscing elit, orem ipsum dolor sit amet, consectetur adipiscing elit, orem ipsum dolor sit amet, consectetur adipiscing elit, ",
         "price": 110,
         "favorite": true,
         "rated": [
             3,
             4
+        ],
+        "comments": [
+            {
+                "username": "ante",
+                "title": "recenzija 1",
+                "comment": "Super"
+            },
+            {
+                "username": "mate",
+                "title": "recenzija 2",
+                "comment": "Odlično"
+            }
         ]
     },
     {
         "id": 2,
         "imgUrl": "https://guesseu.scene7.com/is/image/GuessEU/FLGLO4FAL12-BEIBR?wid=700&amp;fmt=jpeg&amp;qlt=80&amp;op_sharpen=0&amp;op_usm=1.0,1.0,5,0&amp;iccEmbed=0",
-        "name": "GLORIA HIGH LOGO SNEAKER",
-        "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, orem ipsum dolor sit amet, consectetur adipiscing elit, orem ipsum dolor sit amet, consectetur adipiscing elit, orem ipsum dolor sit amet, consectetur adipiscing elit, orem ipsum dolor sit amet, consectetur adipiscing elit, orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "name": "Stol",
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, orem ipsum dolor sit amet, consectetur adipiscing elit, orem ipsum dolor sit amet, consectetur adipiscing elit, orem ipsum dolor sit amet, consectetur adipiscing elit, orem ipsum dolor sit amet, consectetur adipiscing elit, orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "price": 91,
         "favorite": false,
         "rated": [
             2,
             5
+        ],
+        "comments": [
+            {
+                "username": "ante",
+                "title": "recenzija 1",
+                "comment": "Super"
+            },
+            {
+                "username": "mate",
+                "title": "recenzija 2",
+                "comment": "Odlično"
+            }
         ]
     },
     {
         "id": 3,
         "imgUrl": "https://guesseu.scene7.com/is/image/GuessEU/HWVG6216060-TAN?wid=700&amp;fmt=jpeg&amp;qlt=80&amp;op_sharpen=0&amp;op_usm=1.0,1.0,5,0&amp;iccEmbed=0",
-        "name": "CATE RIGID BAG",
-        "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi uorem ipsum dolor sit amet, consectetur adipiscing elit, orem ipsum dolor sit amet, consectetur adipiscing elit, orem ipsum dolor sit amet, consectetur adipiscing elit, orem ipsum dolor sit amet, consectetur adipiscing elit, orem ipsum dolor sit amet, consectetur adipiscing elit, orem ipsum dolor sit amet, consectetur adipiscing elit, t aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "name": "Svjetiljka",
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi uorem ipsum dolor sit amet, consectetur adipiscing elit, orem ipsum dolor sit amet, consectetur adipiscing elit, orem ipsum dolor sit amet, consectetur adipiscing elit, orem ipsum dolor sit amet, consectetur adipiscing elit, orem ipsum dolor sit amet, consectetur adipiscing elit, orem ipsum dolor sit amet, consectetur adipiscing elit, t aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "price": 94.5,
         "favorite": false,
         "rated": [
             3,
             5
+        ],
+        "comments": [
+            {
+                "username": "ante",
+                "title": "recenzija 1",
+                "comment": "Super"
+            },
+            {
+                "username": "mate",
+                "title": "recenzija 2",
+                "comment": "Odlično"
+            }
         ]
     },
     {
         "id": 4,
         "imgUrl": "http://guesseu.scene7.com/is/image/GuessEU/WC0001FMSWC-G5?wid=520&fmt=jpeg&qlt=80&op_sharpen=0&op_usm=1.0,1.0,5,0&iccEmbed=0",
-        "name": "GUESS CONNECT WATCH",
-        "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt morem ipsum dolor sit amet, consectetur adipiscing elit, orem ipsum dolor sit amet, consectetur adipiscing elit, orem ipsum dolor sit amet, conseorem ipsum dolor sit amet, consectetur adipiscing elit, orem ipsum dolor sit amet, consectetur adipiscing elit, orem ipsum dolor sit amet, consectetur adipiscing elit, orem ipsum dolor sit amet, consectetur adipiscing elit, ctetur adipiscing elit, ollit anim id est laborum.",
+        "name": "Sat",
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt morem ipsum dolor sit amet, consectetur adipiscing elit, orem ipsum dolor sit amet, consectetur adipiscing elit, orem ipsum dolor sit amet, conseorem ipsum dolor sit amet, consectetur adipiscing elit, orem ipsum dolor sit amet, consectetur adipiscing elit, orem ipsum dolor sit amet, consectetur adipiscing elit, orem ipsum dolor sit amet, consectetur adipiscing elit, ctetur adipiscing elit, ollit anim id est laborum.",
         "price": 438.9,
         "favorite": false,
         "rated": [
             4,
             3
+        ],
+        "comments": [
+            {
+                "username": "ante",
+                "title": "recenzija 1",
+                "comment": "Super"
+            },
+            {
+                "username": "mate",
+                "title": "recenzija 2",
+                "comment": "Odlično"
+            }
         ]
     },
     {
         "id": 5,
         "imgUrl": "https://guesseu.scene7.com/is/image/GuessEU/AW6308VIS03-SAP?wid=700&amp;fmt=jpeg&amp;qlt=80&amp;op_sharpen=0&amp;op_usm=1.0,1.0,5,0&amp;iccEmbed=0",
-        "name": "'70s RETRO GLAM KEFIAH",
-        "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim orem ipsum dolor sit amet, consectetur adipiscing elit, orem ipsum dolor sit amet, consectetur adipiscing elit, orem ipsum dolor sit amet, consectetur adipiscing elit, orem ipsum dolor sit amet, consectetur adipiscing elit, orem ipsum dolor sit amet, consectetur adipiscing elit, id est laborum.",
+        "name": "Mobitel",
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim orem ipsum dolor sit amet, consectetur adipiscing elit, orem ipsum dolor sit amet, consectetur adipiscing elit, orem ipsum dolor sit amet, consectetur adipiscing elit, orem ipsum dolor sit amet, consectetur adipiscing elit, orem ipsum dolor sit amet, consectetur adipiscing elit, id est laborum.",
         "price": 20,
         "favorite": false,
         "rated": [
             5,
             5
+        ],
+        "comments": [
+            {
+                "username": "ante",
+                "title": "recenzija 1",
+                "comment": "Super"
+            },
+            {
+                "username": "mate",
+                "title": "recenzija 2",
+                "comment": "Odlično"
+            }
         ]
     }
 ]
