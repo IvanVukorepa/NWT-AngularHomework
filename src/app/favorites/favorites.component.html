@@ -2,6 +2,9 @@
     <div class="favoriteImage"></div>
     <div class="favoriteBody">
         <div class="favoriteTitle">{{favorite.name}}</div>
-        <div class="favoriteRate"> Ocjena od 5</div>
+        <div class="favoriteRate"> Ocjena {{rating(favorite.rated)}} od 5</div>
+        <div class="unfavoriteButton" (click)="unfavoriteClick(favorite)">
+            Remove
+        </div>
     </div>
 </div>

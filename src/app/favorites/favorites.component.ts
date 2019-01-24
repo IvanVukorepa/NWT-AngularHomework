@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter	 } from '@angular/core';
 
 @Component({
   selector: 'app-favorites',
@@ -7,9 +7,23 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class FavoritesComponent implements OnInit {
 
-  @Input() favorites: []
+  @Input() favorites: [];
+  @Output() unfavoriteProduct: EventEmitter<any> = new EventEmitter<any>();
+
 
   constructor() { }
+
+  rating = (ratings) => {
+    let sum = 0;
+    ratings.forEach(element => {
+      sum += element
+    });
+    return sum/ratings.length;
+  }
+
+  unfavoriteClick(product){
+    this.unfavoriteProduct.emit(product);
+  }
 
   ngOnInit() {
   }
