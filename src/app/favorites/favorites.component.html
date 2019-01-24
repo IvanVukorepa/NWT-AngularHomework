@@ -1,5 +1,5 @@
 <div class="favoritesList" *ngFor="let favorite of favorites">
-    <div class="favoriteImage"></div>
+    <img class="favoriteImage" src="{{favorite.imgUrl}}" alt="">
     <div class="favoriteBody">
         <div class="favoriteTitle">{{favorite.name}}</div>
         <div class="favoriteRate"> Ocjena {{rating(favorite.rated)}} od 5</div>

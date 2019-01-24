@@ -13,6 +13,9 @@ export class DetailsComponent implements OnInit {
   id: number;
   product: ProductInterface;
 
+  rate: number = null;
+  rated: boolean = false;
+
   constructor(private productService: ProductService, private route: ActivatedRoute) {
     console.log(this.product);
    }
@@ -32,6 +35,19 @@ export class DetailsComponent implements OnInit {
       sum += element
     });
     return (sum/ratings.length).toFixed(2);
+  }
+
+  rateClick = (product) => {
+    if(this.rate !== null && this.rate > 0 && this.rate < 6){
+      product.rated.push(this.rate);
+      this.rated = true;
+    }
+    else
+      this.rate = null;
+  }
+
+  favoriteClick = (product) => {
+    product.favorite = !product.favorite;
   }
 
 }

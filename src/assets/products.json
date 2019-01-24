@@ -12,11 +12,13 @@
         ],
         "comments": [
             {
+                "id": "1",
                 "username": "ante",
                 "title": "recenzija 1",
                 "comment": "Super"
             },
             {
+                "id": "2",
                 "username": "mate",
                 "title": "recenzija 2",
                 "comment": "Odlično"
@@ -36,11 +38,13 @@
         ],
         "comments": [
             {
+                "id": "1",
                 "username": "ante",
                 "title": "recenzija 1",
                 "comment": "Super"
             },
             {
+                "id": "2",
                 "username": "mate",
                 "title": "recenzija 2",
                 "comment": "Odlično"
@@ -60,11 +64,13 @@
         ],
         "comments": [
             {
+                "id": "1",
                 "username": "ante",
                 "title": "recenzija 1",
                 "comment": "Super"
             },
             {
+                "id": "2",
                 "username": "mate",
                 "title": "recenzija 2",
                 "comment": "Odlično"
@@ -84,11 +90,13 @@
         ],
         "comments": [
             {
+                "id": "1",
                 "username": "ante",
                 "title": "recenzija 1",
                 "comment": "Super"
             },
             {
+                "id": "2",
                 "username": "mate",
                 "title": "recenzija 2",
                 "comment": "Odlično"
@@ -108,11 +116,13 @@
         ],
         "comments": [
             {
+                "id": "1",
                 "username": "ante",
                 "title": "recenzija 1",
                 "comment": "Super"
             },
             {
+                "id": "2",
                 "username": "mate",
                 "title": "recenzija 2",
                 "comment": "Odlično"

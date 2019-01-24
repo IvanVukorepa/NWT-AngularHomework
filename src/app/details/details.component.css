@@ -1,0 +1,79 @@
+.body{
+    background-color: rgb(245,245,245);
+}
+.details{
+    margin: 20px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 15px;
+    background-color: lightblue;
+}
+.backButton{
+    margin: 40px;
+}
+.detailsHeader{
+    margin: 20px;
+    display: flex;
+}
+
+.detailsTitle{
+    margin: 20px;
+}
+
+.detailsRating{
+    margin: 20px 30px 0 auto;
+}
+
+.detailsBody{
+    display: flex;
+}
+
+.detailsImage{
+    height: 300px;
+    margin: 30px;
+}
+
+.detailsDescription{
+    margin: 30px 20px 20px 20px;
+    padding-top: 50px;
+}
+
+.detailsComment{
+    margin: 20px;
+}
+
+.detailsCommentUserName{
+    text-transform: uppercase;
+
+    margin-left: 50px;
+}
+
+.detailsCommentText{
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+
+.favorite {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 40px 10px 40px;
+
+
+    text-transform: uppercase;
+}
+
+.favoriteAdd:hover {
+    cursor: pointer;
+}
+
+.rate {
+    display: flex;
+}
+.rate:hover {
+    cursor: pointer;
+}
+
+.rateButton {
+    margin-left: 15px;  
+}

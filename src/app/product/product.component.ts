@@ -20,7 +20,7 @@ export class ProductComponent implements OnInit {
   @Input() product: ProductInterface;
   @Output() favoriteChanged: EventEmitter<any> = new EventEmitter<any>();
   rate: number = null;
-  clicked: boolean = false;
+  rated: boolean = false;
 
   rating = (ratings) => {
     let sum = 0;
@@ -33,11 +33,10 @@ export class ProductComponent implements OnInit {
   rateClick = (product) => {
     if(this.rate !== null && this.rate > 0 && this.rate < 6){
       product.rated.push(this.rate);
-      this.clicked = true;
+      this.rated = true;
     }
     else
       this.rate = null;
-
   }
 
   favoriteClick = (product) => {
